@@ -372,3 +372,5 @@
                                                               1000)]
           (pool/cancel-init wrapped)
           (is (thrown? CancellationException (pool/close-after-ready wrapped))))))))
+
+
